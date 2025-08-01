@@ -1,0 +1,12 @@
+CompileFlags:
+  CompilationDatabase: None
+  Add:
+    - -std=gnu23
+    - -pedantic
+    - -g
+    - -Wall
+    - -Wextra
+    - -D_CLANGD=1
+    - -xc-header
+  Compiler: clang
+
